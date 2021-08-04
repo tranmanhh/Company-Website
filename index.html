@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Website Maker</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="styling/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--create a navigation bar-->
+        <nav role="navigation" class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><img src="/images/crown.png"></a>
+                    <!--create a toggle collapsible button-->
+                    <button type="button" class="navbar-toggle" data-target="#navbarContents" data-toggle="collapse">
+                        <span class="sr-only">collapsible icon</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" id="navbarContents">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!--create a jumbotron-->
+        <div class="jumbotron">
+            <div class="container">
+                <!--create header-->
+                <h1>Looking to make an Awesome Website?</h1>
+                <!--create icon with description part-->
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/money.png">
+                        <h2>Price it</h2>
+                        <p>Get in touch for an immediate no obligation quote!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/schedule.png">
+                        <h2>Plan it</h2>
+                        <p>We will agree on a deadline and commit to it.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/contract.png">
+                        <h2>Make it</h2>
+                        <p>We will deliver your website on time with the best quality.</p>
+                    </div>
+                </div>
+                <!--create contact button-->
+                <button type="button" class="btn btn-default">Get in touch</button>
+            </div>
+        </div>
+
+        <!--create a footer-->
+        <div id="footer">
+            <div class="container">
+                <p>&copy; Develop with chong Minh A'nh.</p>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

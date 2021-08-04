@@ -1,0 +1,89 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 19px;
+  padding-bottom: 1px;
+}
+
+.navbar .navbar-brand img {
+  height: 35px;
+}
+
+.navbar .icon-bar {
+  background-color: white;
+  width: 27px;
+  height: 4px;
+  margin-top: 5px;
+}
+
+.navbar #navbarContents li {
+  margin: 10px 35px 0 0;
+}
+
+.navbar #navbarContents li a {
+  color: #7A7D89;
+}
+
+.navbar #navbarContents li a:hover, .navbar #navbarContents li a:active {
+  background-color: rgba(34, 34, 34, 0.7);
+  color: white;
+  border-bottom: 1px solid #00E0B9;
+}
+
+.jumbotron {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+
+.jumbotron img {
+  height: 150px;
+}
+
+.jumbotron h2 {
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 18px;
+  letter-spacing: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron img {
+    height: 100px;
+  }
+}
+
+.btn-default {
+  background-color: rgba(0, 224, 185, 0.5);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 280px;
+  height: 45px;
+  margin-top: 30px;
+}
+
+.btn-default:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #eee;
+  height: 45px;
+  padding-top: 10px;
+  margin-top: 100px;
+}
+
+body {
+  background: url(/images/background.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arvo, monospace;
+}
+/*# sourceMappingURL=style.css.map */

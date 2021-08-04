@@ -1,0 +1,31 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 19px;
+    padding-bottom: 1px;
+
+    //style the crown logo
+    .navbar-brand img{
+        height: 35px;
+    }
+
+    //style the collapsible icon
+    .icon-bar{
+        background-color: white;
+        width: 27px;
+        height: 4px;
+        margin-top: 5px;
+    }
+
+    //style the text of contents
+    #navbarContents li{
+        margin: 10px 35px 0 0;
+        a{
+            color: #7A7D89;
+        }
+        a:hover, a:active{
+            background-color: rgba(34, 34, 34, 0.7);
+            color: white;
+            border-bottom: 1px solid #00E0B9;
+        }
+    }
+}

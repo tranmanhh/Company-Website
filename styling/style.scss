@@ -1,0 +1,12 @@
+@import "components/navbar";
+@import "components/jumbotron";
+@import "components/button";
+@import "layouts/footer";
+
+//set the background image, make it fixed as users scrolling, and set the font-family
+body{
+    background: url(/images/background.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arvo, monospace;
+}

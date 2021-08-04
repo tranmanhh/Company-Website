@@ -1,0 +1,27 @@
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    //style the icon
+    img{
+        height: 150px;
+    }
+    //style the title of description
+    h2{
+        font-weight: bold;
+    }
+    //style the description
+    p{
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+}
+
+//style icon when the width of the screen is under 768px
+@media screen and (max-width: 768px){
+    .jumbotron img{
+        height: 100px;
+    }
+}

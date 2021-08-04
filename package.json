@@ -1,0 +1,14 @@
+{
+  "name": "company-website",
+  "version": "1.0.0",
+  "description": "Practice using HTML, CSS, SASS, and Bootstrap to create a front-page of a company website",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass styling/style.scss styling/style.css"
+  },
+  "author": "Manh Dinh",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
